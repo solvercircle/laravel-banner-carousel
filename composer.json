@@ -24,5 +24,6 @@
         "psr-0": {
             "Solvercircle\\Scbanner\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
