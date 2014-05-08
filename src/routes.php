@@ -10,7 +10,7 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+//SC Banner Routes
 Route::get('/banner-test', function()
 {
 	return View::make('Scbanner::hellopack');
