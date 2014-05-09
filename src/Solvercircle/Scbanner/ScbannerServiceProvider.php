@@ -20,7 +20,7 @@ class ScbannerServiceProvider extends ServiceProvider {
 	{
 		$this->package('solvercircle/scbanner','Scbanner');
 		
-		require __DIR__.'/../../../vendor/autoload.php';
+		//require __DIR__.'/../../../vendor/autoload.php';
 		
 		include __DIR__.'/../../routes.php';
 		
