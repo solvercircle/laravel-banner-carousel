@@ -24,5 +24,5 @@
             "Solvercircle\\Scbanner\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
