@@ -1,29 +1,23 @@
 {
     "name": "solvercircle/scbanner",
-    "description": "It has a banner management panel to manage site banners.",
-	"keywords": ["banner", "laravel"],
+    "description": "",
     "authors": [
         {
             "name": "SolverCircle",
-            "email": "solvercircle@yahoo.com"
+            "email": "solvercircle@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*",
-		"intervention/image": "1.*",
-		"intervention/imagecache": "0.6.2"
+        "illuminate/support": "4.1.*"
     },
     "autoload": {
         "classmap": [
-            "src/migrations",
-			"src/controllers",
-	        "src/models",
-			"src/Solvercircle/Scbanner/Console"
+            "src/migrations"
         ],
         "psr-0": {
             "Solvercircle\\Scbanner\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
