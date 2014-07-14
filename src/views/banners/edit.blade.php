@@ -11,10 +11,7 @@
 		{{ Form::text('name', null, array('class' => 'form-control')) }}
 	</div>
 
-	<div class="form-group">
-		{{ Form::label('image', 'Image') }}
-		{{ Form::file('image', array('class' => 'form-control')) }}
-	</div>
+	{{ Form::file('image', array('class' => 'btn-primary','title'=>'Select Image')) }}
 
 	<div class="form-group">		
 		{{ Form::checkbox('published', 1, false) }}

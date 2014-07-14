@@ -1,4 +1,5 @@
 @section('content')
+
 <h1>Create New Banner</h1>
 
 <!-- if there are creation errors, they will show here -->
@@ -11,10 +12,11 @@
 		{{ Form::text('name', Input::old('name'), array('class' => 'form-control')) }}
 	</div>
 
-	<div class="form-group">
-		{{ Form::label('image', 'Image') }}
-		{{ Form::file('image', array('class' => 'form-control')) }}
-	</div>
+	<!--
+    <input type="file" class="btn-primary" title="Select Image">
+    -->
+    
+    {{ Form::file('image', array('class' => 'btn-primary','title'=>'Select Image')) }}
     
     <div class="form-group">		
 		{{ Form::checkbox('published', 1, false) }}

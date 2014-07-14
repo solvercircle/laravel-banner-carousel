@@ -4,8 +4,11 @@
 	@section('head')
         <title>Banner Manager</title>
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+        {{HTML::style('packages/solvercircle/scbanner/css/style.css');}}
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        {{HTML::script('packages/solvercircle/scbanner/js/bootstrap.file-input.js');}}
+		<script>$(document).ready(function(){$('input[type=file]').bootstrapFileInput();});</script>
     @show
 	
 </head>
