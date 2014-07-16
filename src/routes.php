@@ -42,5 +42,5 @@ Route::resource('banners', 'Solvercircle\Scbanner\SCBSBannerController');
 
 Route::get('img/{width}/{filename?}', array(
 	'as'   => 'image.view',
-	'uses' => 'Solvercircle\Scbanner\SCBSBannerController@image'
+	'uses' => 'Solvercircle\Scbanner\SCBSImageController@image'
 ))->where('width', '[0-9]+');

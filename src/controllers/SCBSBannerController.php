@@ -200,7 +200,7 @@ class SCBSBannerController extends \BaseController {
 	}
 	
 	
-	public function image($width, $filename = null)
+	/*public function image($width, $filename = null)
 	{	
 		$upload_path=SCBSSettings::get_setting(Config::get('Scbanner::config.key_upload_path'));
 		$image_cache_enabled=(SCBSSettings::get_setting(Config::get('Scbanner::config.key_enable_image_cache'))=='1')?true:false;
@@ -234,7 +234,7 @@ class SCBSBannerController extends \BaseController {
 			->header('Content-Type', 'image/jpeg');
 			
 		
-	}
+	}*/
 	
 	
 	public function settings()
