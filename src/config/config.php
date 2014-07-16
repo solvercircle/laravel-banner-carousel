@@ -17,7 +17,7 @@ $arr_sbcs_conf=array(
 	'key_banner_width'=>'banner_width'
 );
 $arr_sbcs_conf['default_'.$arr_sbcs_conf['key_upload_path']]='';
-$arr_sbcs_conf['default_'.$arr_sbcs_conf['key_interval']]=100;
+$arr_sbcs_conf['default_'.$arr_sbcs_conf['key_interval']]=5;
 $arr_sbcs_conf['default_'.$arr_sbcs_conf['key_enable_image_cache']]=true;
 $arr_sbcs_conf['default_'.$arr_sbcs_conf['key_banner_width']]=1140;
 
