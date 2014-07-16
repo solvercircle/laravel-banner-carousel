@@ -31,10 +31,10 @@ class HomeController extends \BaseController {
 	{
 		//die(SCBSSettings::get_setting(Config::get('Scbanner::config.key_banner_width')));
 		//$banners = SCBSBanner::all();
-		$banners = SCBSBanner::whereRaw('published=?',array(1))->get();
-		$this->layout->content = View::make('Scbanner::banners.banner')
-				->with('banners', $banners);
-		//return View::make('scbs_banners.banner');
+		//$banners = SCBSBanner::whereRaw('published=?',array(1))->get();
+		$this->layout->content = View::make('Scbanner::banners.banner');
+				//->with('banners', $banners);
+		
 	}
 
 }

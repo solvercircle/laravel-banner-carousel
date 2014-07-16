@@ -57,6 +57,14 @@ class SCBSBannerController extends \BaseController {
 	 */
 	public function store()
 	{
+		ini_set('max_execution_time',99999);
+		ini_set("memory_limit","512M");
+		ini_set("post_max_size","512M");
+		ini_set("upload_max_filesize","512M");
+		
+		//die(print_r($_POST));
+		//die(file_get_contents('php://input'));
+		
 		// validate
 		// read more on validation at http://laravel.com/docs/validation
 		$rules = array(

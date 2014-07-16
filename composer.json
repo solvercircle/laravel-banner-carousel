@@ -1,6 +1,7 @@
 {
     "name": "solvercircle/scbanner",
-    "description": "",
+    "description": "It has a banner management panel to manage site banners.",
+	"keywords": ["banner", "laravel"],
     "authors": [
         {
             "name": "SolverCircle",
@@ -18,6 +19,7 @@
             "src/migrations",
 			"src/controllers",
 	        "src/models",
+			"src/classes",
 			"src/Solvercircle/Scbanner/Console"
         ],
         "psr-0": {
