@@ -1,0 +1,18 @@
+.file-input-wrapper {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.file-input-wrapper input[type="file"], .file-input-wrapper input[type="file"]:focus, .file-input-wrapper input[type="file"]:hover {
+    cursor: pointer;
+    left: 0;
+    opacity: 0;
+    outline: 0 none;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+.file-input-name {
+    margin-left: 8px;
+}
