@@ -10,3 +10,6 @@ How to Install
 ```
 php artisan scbanner:install
 ```
+Usage
+=======
+You will get the banner management panel at http://yoursite/banners url. After installing, you need to set the settings for the banners of your site at first. You can do that on http://localhost/banners/settings url. Atleast you must set the File Upload Path there at first.
