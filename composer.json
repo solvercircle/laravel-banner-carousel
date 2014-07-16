@@ -1,7 +1,7 @@
 {
     "name": "solvercircle/scbanner",
     "description": "It has a banner management panel to manage site banners.",
-	"keywords": ["banner", "laravel"],
+	"keywords": ["banner", "laravel", "carousel"],
     "authors": [
         {
             "name": "SolverCircle",
