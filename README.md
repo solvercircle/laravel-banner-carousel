@@ -1,6 +1,6 @@
 laravel-banner-carousel
 =======================
-This laravel package gives a banner management panel for a website. Also, it gives functionality for representing/displaying the managed banners in the website.
+This laravel package gives a banner management panel for a website. Also, it gives functionality for representing/displaying the managed banners as slide show in the website.
 
 How to Install
 =================
@@ -13,3 +13,10 @@ php artisan scbanner:install
 Usage
 =======
 You will get the banner management panel at http://yoursite/banners url. After installing, you need to set the settings for the banners of your site at first. You can do that on http://localhost/banners/settings url. Atleast you must set the File Upload Path there at first.
+
+To display banners as slide show, you just need to call the following function in your laravel view or layout.
+```
+Solvercircle\Scbanner\BannerUI::display();
+```
+
+
