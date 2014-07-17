@@ -1,5 +1,5 @@
-laravel-banner-carousel
-=======================
+Laravel Banner Carousel Slider
+================================
 This laravel package gives a banner management panel for a website. Also, it gives functionality for representing/displaying the managed banners as slide show in the website.
 
 How to Install
