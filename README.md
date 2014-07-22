@@ -19,4 +19,4 @@ To display banners as slide show, you just need to call the following function i
 Solvercircle\Scbanner\BannerUI::display();
 ```
 
-
+To get more information including screen shots and other details, you can visit [here]( http://wordpress-expert.codeinterest.com/laravel/laravel-banner-carousel).
